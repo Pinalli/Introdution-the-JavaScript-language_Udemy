@@ -2,14 +2,27 @@
 //alert ("Hei, não clique em mim, "+nome );
 //}
 
-function mudaCor(cor){
-    var elemento = document.getElementById("mensagem");
+function valida(){
+    var nome = document.getElementById('nome');
+    if (nome.value == ""){
+        alert("campo nome não pode estar vazio")
+    }
+    else{
+        alert(nome.value);
+    }
+
+   
+}
+
+/*function mudaCor(cor){
+    var elemento = document.getElementById("mens");
     elemento.style.color = cor;
+    elemento.style.fontSize = "30px";
 }
 
 
 
-function soma(a,b){
+/*function soma(a,b){
     console.log(a+b);
 }
 soma(47,10);
@@ -30,7 +43,7 @@ console.log(mult(3,4));
 
 
 
-/*var mensagem = "Hello World!" ;
+var mensagem = "Hello World!" ;
 alert(mensagem);
 var a = 0;
 var b = 3;
