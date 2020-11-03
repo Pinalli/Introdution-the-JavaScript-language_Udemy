@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes</title>
+    <!-- CSS -->
+<link href="public/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Scrollspy</h1>
+
+        <div class="row"> 
+            <div class="col-4">
+
+                 <div id ="livro" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#c1">Capítulo 1</a>
+                    <a class="list-group-item list-group-item-action" href="#c2">Capítulo 2</a>
+                    <a class="list-group-item list-group-item-action" href="#c3">Capítulo 3</a>
+                    <a class="list-group-item list-group-item-action" href="#c4">Capítulo 4</a>
+                    <a class="list-group-item list-group-item-action" href="#c5">Capítulo 5</a>
+                    <a class="list-group-item list-group-item-action" href="#c6">Capítulo 6</a>
+            </div>
+     </div>
+     <div class="col-8" id= "caixaLivro" style="position: relative; height: 500px; overflow: auto">
+
+        <div data-spy="scroll" data-target="#livro" data-offset="0">
+            <h3 id="c1">Capítulo 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta ullamcorper arcu, sit amet aliquam tortor laoreet et. Nullam a sagittis lacus. Aliquam vulputate leo et mattis blandit. Fusce varius, lectus vitae ornare semper, velit urna rhoncus enim, quis blandit mauris eros sit amet risus. Donec accumsan, quam nec porta ornare, dolor diam porttitor nisi, vel sodales ex libero vel felis. Donec lorem sem, dignissim non leo nec, congue rhoncus massa. Vivamus faucibus congue suscipit. Donec ultricies orci et sapien aliquam, a malesuada sapien pretium. Donec et felis nec mi sagittis convallis. Nullam eget ipsum vel diam faucibus faucibus. Nunc cursus ultrices magna at cursus. Maecenas sed nunc quam. Nunc nulla ex, ornare vitae tortor ac, congue faucibus nulla. In in sapien tincidunt ipsum accumsan mollis.</p>
+
+            <h3 id="c2">Capítulo 2</h3>
+            <p>Duis sed feugiat libero. Phasellus finibus eros in eros rutrum, tempus malesuada magna sodales. Integer interdum metus sit amet sapien faucibus tincidunt. Nullam urna tellus, luctus id nulla in, varius fringilla justo. Donec in faucibus elit. Ut tellus est, convallis eu iaculis in, hendrerit quis diam. Cras varius leo nec metus varius, vitae aliquet ex ornare. In hac habitasse platea dictumst. Donec maximus auctor augue, et condimentum ex dignissim nec. Nulla pretium lorem nunc, ac feugiat risus pretium in.</p>
+
+            <h3 id="c3">Capítulo 3</h3>
+            <p>Proin odio mi, fermentum at tristique vel, laoreet id sapien. Donec in consequat justo, ut congue leo. Aliquam erat volutpat. Pellentesque eu volutpat turpis. Aliquam quis erat consequat, ornare leo eget, vulputate nulla. Morbi vehicula augue odio, at scelerisque quam congue dictum. Suspendisse rutrum massa a fringilla condimentum. Donec ornare fringilla convallis.Cras finibus, urna at consectetur ultrices, nunc sapien aliquam velit, ut malesuada felis ipsum eu nunc. Vivamus congue sodales sem, vel tristique nibh iaculis quis. Nullam sed mollis lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum viverra porttitor. Integer rutrum ex id elit commodo mollis. Aenean vel dictum diam. Aenean commodo dictum dui at pretium. Duis sit amet ultrices ipsum, nec fermentum ante. </p>
+
+            <h3 id="c4">Capítulo 4</h3>
+            <p>Aenean dapibus dui diam, non laoreet turpis eleifend nec. Sed vel tempor metus, ac varius leo. Phasellus elementum nulla non purus finibus, iaculis egestas arcu rutrum. Maecenas pharetra laoreet metus et molestie. Pellentesque hendrerit tortor ac placerat ultricies. Fusce in nunc sem.Cras finibus, urna at consectetur ultrices, nunc sapien aliquam velit, ut malesuada felis ipsum eu nunc. Vivamus congue sodales sem, vel tristique nibh iaculis quis. Nullam sed mollis lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum viverra porttitor. Integer rutrum ex id elit commodo mollis. Aenean vel dictum diam. Aenean commodo dictum dui at pretium. Duis sit amet ultrices ipsum, nec fermentum ante.  Aenean ullamcorper ex ut dui semper fringilla. Nulla consectetur lectus nec ante placerat volutpat. Vivamus ornare, eros eu dapibus dapibus, augue augue blandit tortor, vitae pharetra diam sapien in magna.</p>
+
+            <h3 id="c5">Capítulo 5</h3>
+            <p>Fusce malesuada felis quam. Nullam venenatis enim metus, in tincidunt nisi pulvinar sed. Cras at felis maximus, scelerisque odio at, tincidunt velit. Aliquam est arcu, luctus vitae erat in, luctus tristique quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce efficitur elementum cursus. Cras finibus, urna at consectetur ultrices, nunc sapien aliquam velit, ut malesuada felis ipsum eu nunc. Vivamus congue sodales sem, vel tristique nibh iaculis quis. Nullam sed mollis lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum viverra porttitor. Integer rutrum ex id elit commodo mollis. Aenean vel dictum diam. Aenean commodo dictum dui at pretium. Duis sit amet ultrices ipsum, nec fermentum ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+            <h3 id="c6">Capítulo 6</h3>
+            <p>Proin odio mi, fermentum at tristique vel, laoreet id sapien. Donec in consequat justo, ut congue leo. Aliquam erat volutpat. Pellentesque eu volutpat turpis. Aliquam quis erat consequat, ornare leo eget, vulputate nulla. Morbi vehicula augue odio, at scelerisque quam congue dictum. Suspendisse rutrum massa a fringilla condimentum. Donec ornare fringilla convallis.</p>
+        </div>
+            
+    </div>
+        
+<footer>
+            <!--JS-->
+            <script src="public/js/jquery.js"></script>
+            <script src="public/js/bootstrap.bundle.min.js"></script>
+            <script type="text/javascript">
+                $('#caixaLivro').scrollspy({target: '#livro'})
+            </script>
+    </footer>
+
+</body>
+</html>
